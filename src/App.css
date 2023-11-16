@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --font-base: 'Poppins', sans-serif;
+  --robin-blue-color: #10c9c3;
+  --white-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: var(--font-base);
+  color: var(--black-color);
+}
+
+.container {
+  max-width: 1177px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* section */
+.section__padding {
+  padding: 10rem 0;
+}
+
+/* texts and paras */
+.para__text {
+  line-height: 1.7;
+  font-weight: 300;
+  opacity: 0.95;
+  letter-spacing: 1px;
+}
+.text__center {
+  text-align: center;
+}
+
+.text__upper {
+  text-transform: uppercase;
+}
+
+.text__blue {
+  color: var(--robin-blue-color);
+}
+
+.text__light {
+  color: var(--white-color)!important;
+}
+
+/* fonts */
+.fw__2{font-weight: 200;}
+.fw__2{font-weight: 300;}
+.fw__2{font-weight: 400;}
+.fw__2{font-weight: 500;}
+.fw__2{font-weight: 600;}
+.fw__2{font-weight: 700;}
+.fw__2{font-weight: 800;}
+
+/* bgs and colors */
+.bg__blue {
+  background-color: var(--robin-blue-color);
+}
+
+/* letter spacing */
+.ls__2 {
+  letter-spacing: 2px;
+}
